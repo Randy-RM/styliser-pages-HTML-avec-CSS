@@ -108,3 +108,8 @@ figcaption {
     line-height: 2rem;
     font-weight: 500;
 }
+
+.affich-code {
+    background-color: #dcdcdc;
+    padding: 2rem;
+}
