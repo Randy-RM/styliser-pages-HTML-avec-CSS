@@ -66,16 +66,12 @@ table tbody {
     cursor: pointer;
 }
 
-table tbody tr:hover {
-    background-color: #989898;
-}
-
-.strip-one {
+table tbody tr:nth-child(odd) {
     background-color: #dcdcdc;
 }
 
-.strip-tow {
-    background-color: #c7c7c7;
+table tbody tr:hover {
+    background-color: #989898;
 }
 
 /*===============END TABLE===============*/
