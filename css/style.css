@@ -1,19 +1,31 @@
 /*===============START GLOBAL===============*/
+@font-face {
+    font-family: 'Bitter';
+    src: url('../font/Bitter-Bold.eot');
+    src: url('../font/Bitter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Bitter-Bold.woff2') format('woff2'),
+        url('../font/Bitter-Bold.woff') format('woff'),
+        url('../font/Bitter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-color: #c7c7c7;
-    font-family: 'Segoe UI',
-        Tahoma,
-        Geneva,
-        Verdana,
-        sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    padding: 0rem 5rem 0rem 5rem;
+    padding: 0rem 7rem 5rem 7rem;
 }
 
 h1,
 h2,
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Bitter,
+        Georgia,
+        'Times New Roman',
+        Times,
+        serif;
     font-weight: bold;
 }
 
@@ -32,11 +44,12 @@ h3 {
 }
 
 p {
-    text-align: justify;
+    text-align: left;
 }
 
 p a {
     color: #e40016;
+    font-weight: 600;
 }
 
 /*===============END GLOBAL===============*/
@@ -44,6 +57,7 @@ p a {
 /*===============START TABLE===============*/
 table {
     border-spacing: 0;
+    margin-bottom: 1%;
 }
 
 table thead tr {
@@ -77,12 +91,15 @@ table tbody tr:hover {
 /*===============END TABLE===============*/
 
 /*===============START FIGURE===============*/
-figure {
+.cadre-figure {
     background-color: #363636;
-    color: #ffffff;
-    padding: 2rem;
     border-radius: 10px;
     border: solid 3px #e40016;
+    padding: 20px 0px;
+}
+
+figure {
+    color: #ffffff;
 }
 
 figure img {
@@ -90,11 +107,17 @@ figure img {
 }
 
 figcaption {
-    font-weight: 500;
+    margin-top: 2%;
+    font-size: large;
+    font-weight: 600;
     text-align: center;
 }
 
 /*===============END FIGURE===============*/
+
+blockquote {
+    margin-bottom: 2%;
+}
 
 /*===============START OTHER CLASS===============*/
 
@@ -104,7 +127,7 @@ figcaption {
     padding: 0rem 1.8rem 0rem 1.8rem;
     background-color: #b6b6b6;
     color: #5e00b0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 2rem;
     font-weight: 500;
 }
