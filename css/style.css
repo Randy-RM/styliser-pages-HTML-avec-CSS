@@ -122,13 +122,13 @@ blockquote {
 /*===============START OTHER CLASS===============*/
 
 .well {
-    border: dashed 4px #5e00b0;
+    border: dashed 3px #5e00b0;
     margin: 1rem;
     padding: 0rem 1.8rem 0rem 1.8rem;
     background-color: #b6b6b6;
     color: #5e00b0;
     font-size: 1.3rem;
-    line-height: 2rem;
+    line-height: 1.6rem;
     font-weight: 500;
 }
 
