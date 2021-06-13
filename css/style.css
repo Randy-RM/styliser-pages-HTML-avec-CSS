@@ -1,19 +1,10 @@
 /*===============START GLOBAL===============*/
-@font-face {
-    font-family: 'Bitter';
-    src: url('../font/Bitter-Bold.eot');
-    src: url('../font/Bitter-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../font/Bitter-Bold.woff2') format('woff2'),
-        url('../font/Bitter-Bold.woff') format('woff'),
-        url('../font/Bitter-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
     background-color: #c7c7c7;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto',
+    Arial,
+    Helvetica,
+    sans-serif;
     font-weight: 500;
 }
 
@@ -26,7 +17,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Bitter,
+    font-family: 'Libre Baskerville',
         Georgia,
         'Times New Roman',
         Times,
